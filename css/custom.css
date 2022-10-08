@@ -20,6 +20,11 @@
   border: 1px solid #333333;
 }
 
+.v-buffer {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 @media(max-width: 920px) {
   .block {
     text-align: left;
