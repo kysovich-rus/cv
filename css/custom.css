@@ -1,0 +1,38 @@
+.about {
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.block, .skills {
+  border-radius: 10px;
+  border: 1px solid #333333AA;
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.persona {
+  float: right;
+}
+
+.persona img {
+  border-radius: 10px;
+  border: 1px solid #333333;
+}
+
+@media(max-width: 920px) {
+  .block {
+    text-align: left;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .persona {
+    text-align: center;
+    display: block;
+    float: none;
+    margin-left: 0 auto;
+  }
+}
